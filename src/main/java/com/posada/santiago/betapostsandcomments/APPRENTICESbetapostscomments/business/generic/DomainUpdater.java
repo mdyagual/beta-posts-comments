@@ -1,11 +1,9 @@
-package com.posada.santiago.betapostsandcomments.business.generic;
+package com.posada.santiago.betapostsandcomments.APPRENTICESbetapostscomments.business.generic;
 
 import co.com.sofka.domain.generic.DomainEvent;
-import co.com.sofka.domain.generic.Incremental;
 
 import java.util.HashSet;
 import java.util.Set;
-import java.util.concurrent.atomic.AtomicLong;
 import java.util.function.Consumer;
 
 public abstract class DomainUpdater {

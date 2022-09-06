@@ -1,4 +1,4 @@
-package com.posada.santiago.betapostsandcomments.application.handlers;
+package com.posada.santiago.betapostsandcomments.APPRENTICESbetapostscomments.application.handlers;
 
 
 import org.springframework.context.annotation.Configuration;

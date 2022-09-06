@@ -1,4 +1,4 @@
-package com.posada.santiago.betapostsandcomments.business.gateways.model;
+package com.posada.santiago.betapostsandcomments.APPRENTICESbetapostscomments.business.gateways.model;
 
 public class CommentViewModel {
     private String id;

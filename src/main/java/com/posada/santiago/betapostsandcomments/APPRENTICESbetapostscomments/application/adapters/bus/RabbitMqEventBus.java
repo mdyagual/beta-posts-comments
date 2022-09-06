@@ -3,7 +3,7 @@ package com.posada.santiago.betapostsandcomments.APPRENTICESbetapostscomments.ap
 
 import co.com.sofka.domain.generic.DomainEvent;
 import com.google.gson.Gson;
-import com.posada.santiago.betapostsandcomments.business.gateways.EventBus;
+import com.posada.santiago.betapostsandcomments.APPRENTICESbetapostscomments.business.gateways.EventBus;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;
 

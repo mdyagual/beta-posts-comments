@@ -1,20 +1,14 @@
-package com.posada.santiago.betapostsandcomments.application.adapters.repository;
+package com.posada.santiago.betapostsandcomments.APPRENTICESbetapostscomments.application.adapters.repository;
 
 
 import com.google.gson.Gson;
-import com.posada.santiago.betapostsandcomments.business.gateways.DomainViewRepository;
-import com.posada.santiago.betapostsandcomments.business.gateways.model.CommentViewModel;
-import com.posada.santiago.betapostsandcomments.business.gateways.model.PostViewModel;
+import com.posada.santiago.betapostsandcomments.APPRENTICESbetapostscomments.business.gateways.DomainViewRepository;
+import com.posada.santiago.betapostsandcomments.APPRENTICESbetapostscomments.business.gateways.model.CommentViewModel;
+import com.posada.santiago.betapostsandcomments.APPRENTICESbetapostscomments.business.gateways.model.PostViewModel;
 import org.springframework.data.mongodb.core.ReactiveMongoTemplate;
-import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Query;
-import org.springframework.data.mongodb.core.query.Update;
-import org.springframework.data.mongodb.core.query.UpdateDefinition;
 import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-
-import java.util.List;
 
 @Repository
 public class MongoViewRepository implements DomainViewRepository {

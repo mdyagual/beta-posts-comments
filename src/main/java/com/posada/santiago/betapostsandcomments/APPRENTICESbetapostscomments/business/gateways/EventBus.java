@@ -1,4 +1,4 @@
-package com.posada.santiago.betapostsandcomments.business.gateways;
+package com.posada.santiago.betapostsandcomments.APPRENTICESbetapostscomments.business.gateways;
 
 import co.com.sofka.domain.generic.DomainEvent;
 
