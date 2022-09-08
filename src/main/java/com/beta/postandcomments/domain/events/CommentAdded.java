@@ -1,7 +1,9 @@
 package com.beta.postandcomments.domain.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
+import lombok.Getter;
 
+@Getter
 
 public class CommentAdded extends DomainEvent {
 
@@ -17,15 +19,4 @@ public class CommentAdded extends DomainEvent {
         this.content = content;
     }
 
-    public String getId() {
-        return id;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public String getContent() {
-        return content;
-    }
 }
